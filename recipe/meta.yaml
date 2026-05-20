@@ -26,7 +26,7 @@ requirements:
     - opentelemetry-semantic-conventions >=0.59b0
     - opentelemetry-semantic-conventions-ai >=0.5.1,<0.6.0
   run_constrained:
-    - cohere >=5.3.3,<6.0.0
+    - cohere >=5.18.0,<6
 
 test:
   imports:
@@ -52,4 +52,3 @@ extra:
     - timkpaine
   skip-lints:
     - reachable_url
-    - missing_imports_or_run_test_py
